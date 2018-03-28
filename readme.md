@@ -14,10 +14,11 @@
   Example input: car
   Example output: arcay
 
--the program moves "qu" as one letter if it is at the beginning of a word.
-  example input: squeal
-  example output: ealsquay
 
 -The program moves multiple consonants if they are adjacent at the beginning of the world:
   example input: string
   example output: ingstray
+
+-the program moves "qu" as one letter if it is at the beginning of a word.
+  example input: squeal
+  example output: ealsquay
