@@ -17,9 +17,9 @@ $(document).ready(function(){
       } else if(newArray[i].length === 1 && (newArray[i].charAt(0) === "a" || newArray[i].charAt(0) === "e" || newArray[i].charAt(0) === "i"|| newArray[i].charAt(0) === "o" ||  newArray[i].charAt(0) === "u")){
         newArray2.push(newArray[i].concat("ay"));
       }else if(str2.includes("qu") || str2.includes("Qu")){
-        newArray2.push(origText.split("u").pop() +str2 + "ay")
+        newArray2.push(newArray[i].split("u").pop() +str2 + "ay")
       }else if(str1.includes("qu")){
-        newArray2.push(origText.split("u").pop() + str1 + "ay");
+        newArray2.push(newArray[i].split("u").pop() + str1 + "ay");
       }else if(newArray[i].charAt(0) !== "a" && newArray[i].charAt(0) !== "e" && newArray[i].charAt(0) !== "i" && newArray[i].charAt(0) !== "o" && newArray[i].charAt(0) !== "u"){
         newArray3 = newArray[i].split("");
         for(var j = 0; j < newArray3.length; j++){
