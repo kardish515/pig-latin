@@ -1,0 +1,19 @@
+.well{
+  margin-top: 200px;
+  font-family: "IBM Plex Mono", sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+#userForm{
+  text-align: center;
+}
+#userOutput{
+  text-align: center;
+  font-size: 100px;
+}
+.well#userOutput{
+  display: none;
+}
+body{
+  background-color: aliceblue;
+}

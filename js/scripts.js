@@ -39,6 +39,7 @@ $(document).ready(function(){
           newArray2.push(newArray[i].concat("way"));
         }
     }
-    $(".output").text(newArray2.join(" "));
+    $(".well#output").show();
+    $("#output").text(newArray2.join(" "));
   });
 });
